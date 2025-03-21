@@ -1,0 +1,28 @@
+{
+   "manifest_version": 2,
+   "name": "Savely",
+   "version": "1.0",
+   "description": "Save snippets of information from any webpage.",
+   "icons": {},
+   "permissions": [
+      "activeTab",
+      "clipboardRead",
+      "unlimitedStorage",
+      "storage"
+   ],
+   "browser_action": {
+      "default_icon": "icons/logo.png" ,
+      "default_title": "Savely",
+      "default_popup": "popup/index.html"
+   },
+   "background": {
+      "page": "savely.html",
+      "persistent": true
+   },
+   "applications": {
+      "gecko": {
+         "id": "savely_epic_stuff@savely.com"
+      }
+   },
+   "content_security_policy": "default-src 'self'"
+}

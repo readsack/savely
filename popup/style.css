@@ -1,0 +1,47 @@
+:root{
+    --primary: rgb(127,0,255);
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    margin: 30px;
+    width: 400px;
+    font-family: sans-serif;
+}
+
+
+#popup-content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+textarea:focus {outline:none;}
+
+textarea{
+    resize: none;
+}
+
+textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+
+#submit, #page{
+    width: min-content;
+    color: white;
+    min-width: 100px;
+    border: none;
+    background-color: var(--primary);   
+    padding: 10px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}

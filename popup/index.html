@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form id="popup-content">
+		Information
+		<textarea form="popup-content" type="text" name="content" id="content" placeholder="Text to be saved..."
+			rows="3"></textarea>
+		Note
+		<textarea type="text" name="note" id="note" placeholder="Add a note to the text..." rows="3"></textarea>
+
+	</form>
+	<div class="btns">
+		<input type="submit" value="Add" id="submit" form="popup-content">
+		<button id="page">See All</button>
+	</div>
+	<div id="error-content" class="hidden">
+		<h1></h1>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
